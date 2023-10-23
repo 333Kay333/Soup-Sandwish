@@ -7,9 +7,11 @@ const rootElement = document.getElementById('root');
 function TempName() {
   return (
 <div>
-  <div>
+  <header>
+    <nav>
     <img src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png" width="40px" />
-  </div>
+    </nav>
+  </header>
 <h1>Fun Facts About Kay</h1>
 
     <ul>
@@ -17,6 +19,8 @@ function TempName() {
       <li>I have a wide variety of certificates and licenses including but not limited to a Pilots License, Cosmetology Licenses in multiple states, Realtor License...</li>
       <li>I love to cook.  Transforming food is one of the most fun things I can think of.</li>
      </ul>
+     <footer>© 20xx <Kay's Coding> development. All rights reserved."
+</footer>
     </div> )
 };
 
