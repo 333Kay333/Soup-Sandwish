@@ -6,9 +6,11 @@ const rootElement = document.getElementById('root');
         function Header() {
           return(<div>
              <header>
+              <div>
     <nav>
     <img src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png" width="40px" />
     </nav>
+    <h1>Soup & Sand-Wishes</h1></div>
   </header>
           </div>
             
@@ -17,12 +19,25 @@ const rootElement = document.getElementById('root');
         function MainContent() {
           return(
             <div>
-            <h1>Fun Facts About Kay</h1>
-
+            <h2>Popular Menu Items</h2>
+            <h3>SandWishes</h3>
+      <ol>
+        <li>Three Cheese (your choice)</li>
+        <li>Wishes of Muenster</li>
+        <li>Feta</li>
+        <li>Classic Cheddar</li>
+      </ol>
+      <h3>Soups</h3>
+      <ol>
+        <li>Tomato Bisque</li>
+        <li>Hungarian Mushroom</li>
+        <li>Vegetable</li>
+        <li>Tortilla</li>
+      </ol>
     <ul>
-      <li>I have lived in some very interesting places. P.N.G., Buckland, Girdwood, etc</li>
-      <li>I have a wide variety of certificates and licenses including but not limited to a Pilots License, Cosmetology Licenses in multiple states, Realtor License...</li>
-      <li>I love to cook.  Transforming food is one of the most fun things I can think of.</li>
+    <li>Menu</li>
+        <li>About</li>
+        <li>Contact</li>
      </ul></div>
           )
         };
