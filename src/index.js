@@ -5,10 +5,22 @@ const rootElement = document.getElementById('root');
 
         function Header() {
           return(<div>
-             <header>
+             <div>
               <div>
     <nav className="nav">
-    <img className="img" src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"  />
+   <img src="src/img.png"  alt="sandwich"/>
+   <p><small>
+        Image credit: 
+        {' '}
+        <a
+          href="https://pixabay.com/users/billithecat-7996303/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Billi the Cat
+        </a>
+     </small> </p>
+   
     <ul className="nav-item">
     <li>Menu</li>
         <li>About</li>
@@ -16,7 +28,7 @@ const rootElement = document.getElementById('root');
      </ul>
     </nav>
     <h1>Soup & Sand-Wishes</h1></div>
-  </header>
+  </div>
           </div>
             
           )
@@ -47,6 +59,7 @@ const rootElement = document.getElementById('root');
             <div>
               <footer>
       <small>© 20xx Kay's Coding development. All rights reserved.</small>
+      <small></small>
 </footer>
             </div>
 

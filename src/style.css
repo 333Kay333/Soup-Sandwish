@@ -1,11 +1,30 @@
-.img {
-  width: 60px;
+body {
+  background-color:thistle;
+  margin: 50px;
+  font-family:fantasy;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+h1 {font-size: 50px;
+}
+h2 { 
+  color: rgb(137, 2, 126);
+}
+h3 {
+  font-weight: 900;
+  font-size: larger;
+  text-shadow: 3px 3px 3px #0000;
+  font-style: italic;
+ 
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
 .nav-item {
@@ -14,9 +33,18 @@
   
 }
 .nav-item > li{
-  
+
+
   padding: 10px;
-  color:lightslategrey;
+  color:rgb(137, 2, 126);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;
+  
+  }
+  ol {
+    list-style: none;
+  }
+  li {
+    text-align: center;
+    color: rgb(137, 2, 126);
   }
