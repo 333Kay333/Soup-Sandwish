@@ -7,8 +7,13 @@ const rootElement = document.getElementById('root');
           return(<div>
              <header>
               <div>
-    <nav>
-    <img src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png" width="40px" />
+    <nav className="nav">
+    <img className="img" src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"  />
+    <ul className="nav-item">
+    <li>Menu</li>
+        <li>About</li>
+        <li>Contact</li>
+     </ul>
     </nav>
     <h1>Soup & Sand-Wishes</h1></div>
   </header>
@@ -34,11 +39,7 @@ const rootElement = document.getElementById('root');
         <li>Vegetable</li>
         <li>Tortilla</li>
       </ol>
-    <ul>
-    <li>Menu</li>
-        <li>About</li>
-        <li>Contact</li>
-     </ul></div>
+   </div>
           )
         };
         function Footer() {
