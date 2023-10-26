@@ -8,16 +8,13 @@ const rootElement = document.getElementById('root');
              <div>
               <div>
     <nav className="nav">
-   <img src="src/img.png"  alt="sandwich"/>
-   <p><small>
-        Image credit: 
-        {' '}
+   <p className="img"><small>
         <a
           href="https://pixabay.com/users/billithecat-7996303/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Billi the Cat
+           <img src="src/graphic-3345180_640.png" alt="pic" />
         </a>
      </small> </p>
    
