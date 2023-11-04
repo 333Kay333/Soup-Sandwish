@@ -14,7 +14,7 @@ const rootElement = document.getElementById('root');
           target="_blank"
           rel="noopener noreferrer"
         >
-           <img src="src/graphic-3345180_640.png" alt="pic" />
+           <img src="https://pixabay.com/get/g1e095f8e99ba5eef7cf49c42b6f745c56f0a569378274acedf1e5c2ed7b088ee63b520fd9d7b9e3c5fa032b3767aecf4.svg" alt="Sand-wishes" />
         </a>
      </small> </p>
    
@@ -24,7 +24,7 @@ const rootElement = document.getElementById('root');
         <li>Contact</li>
      </ul>
     </nav>
-    <h1>Soup & Sand-Wishes</h1></div>
+    <h1>Soup & Wishes</h1></div>
   </div>
           </div>
             
