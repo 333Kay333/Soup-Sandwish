@@ -8,15 +8,15 @@ const rootElement = document.getElementById('root');
              <div>
               <div>
     <nav className="nav">
-   <p className="img"><small>
+   <header className="img">
         <a
           href="https://pixabay.com/users/billithecat-7996303/"
           target="_blank"
           rel="noopener noreferrer"
         >
-           <img src="https://pixabay.com/get/g1e095f8e99ba5eef7cf49c42b6f745c56f0a569378274acedf1e5c2ed7b088ee63b520fd9d7b9e3c5fa032b3767aecf4.svg" alt="Sand-wishes" />
+           <img className="image" src="https://pixabay.com/get/g1e095f8e99ba5eef7cf49c42b6f745c56f0a569378274acedf1e5c2ed7b088ee63b520fd9d7b9e3c5fa032b3767aecf4.svg" height="50%" width="50%" alt="Sand-wishes" />
         </a>
-     </small> </p>
+      </header>
    
     <ul className="nav-item">
     <li>Menu</li>
