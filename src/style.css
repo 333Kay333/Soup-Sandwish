@@ -56,3 +56,17 @@ h3 {
     text-align: center;
     color: rgb(137, 2, 126);
   }
+
+  .nav-item > li > a {
+    text-decoration: none;
+    color: rgb(137, 2, 126);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .back {
+    text-align: center;
+    margin: 50px;
+  }
+
+ 
